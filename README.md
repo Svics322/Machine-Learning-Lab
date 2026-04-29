@@ -408,7 +408,7 @@ Ctrl + F5
 Точність: ...%
 ```
 
-# 14. Типові помилки
+# 12. Типові помилки
 
 ## Помилка: `Cannot open include file: mlpack.hpp`
 
@@ -504,7 +504,7 @@ cd C:\vcpkg
 
 ---
 
-# 15. Коротка послідовність команд
+# 13. Коротка послідовність команд
 
 ```powershell
 # 1. Встановлення vcpkg
@@ -526,7 +526,7 @@ setx VCPKG_VISUAL_STUDIO_PATH "C:\Program Files\Microsoft Visual Studio\18\Insid
 
 ---
 
-# 16. Корисні джерела
+# 14. Корисні джерела
 
 - mlpack installation documentation
 - vcpkg MSBuild integration documentation
