@@ -369,53 +369,7 @@ Triplet: x64-windows
 
 ---
 
-# 11. Підготовка MNIST CSV
-
-У проєкті має бути папка:
-
-```text
-data
-```
-
-У ній мають лежати файли:
-
-```text
-mnist_train.csv
-mnist_test.csv
-```
-
-Якщо цих файлів немає, згенерувати їх можна через Python-скрипт:
-
-```powershell
-python tools\mnist_to_csv.py
-```
-
-Після запуску мають з’явитися:
-
-```text
-data\mnist_train.csv
-data\mnist_test.csv
-```
-
-Якщо програма не знаходить файли, перевірити у `AppConfig.h`, які шляхи вказані:
-
-```cpp
-std::string trainFile = "data/mnist_train.csv";
-std::string testFile = "data/mnist_test.csv";
-```
-
-або:
-
-```cpp
-std::string trainFile = "mnist_train.csv";
-std::string testFile = "mnist_test.csv";
-```
-
-Файли мають лежати саме там, де їх очікує програма.
-
----
-
-# 12. Запуск лабораторної
+# 11. Запуск лабораторної
 
 У Visual Studio:
 
@@ -453,22 +407,6 @@ Ctrl + F5
 Правильних прогнозів: ...
 Точність: ...%
 ```
-
----
-
-# 13. Що робити для лабораторного звіту
-
-Для звіту потрібно зробити скриншоти:
-
-1. Структура проєкту у Visual Studio.
-2. Файл `AppConfig.h`.
-3. Файл `DigitClassifier.cpp`, де видно архітектуру мережі.
-4. Консоль із результатом навчання.
-5. Таблиця перших прогнозів.
-6. Приклад помилки мережі.
-7. Репозиторій GitHub із кодом.
-
----
 
 # 14. Типові помилки
 
