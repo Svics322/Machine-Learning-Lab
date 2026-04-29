@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Lab3_AIS/Lab3_AIS.vcxproj" Id="ba130e95-f590-43bc-81fe-86040d954d61" />
+</Solution>
